@@ -14,14 +14,9 @@ A hybrid fake news detection system combining traditional Machine Learning with 
 
 ## 📸 Screenshots
 
-### App Interface
-![App Interface](screenshots/app.png)
+![App Interface](screenshots/Screenshot%202026-05-09%20at%204.51.49%20PM.png)
 
-### Fake News Detection
-![Fake Detection](screenshots/fake_result.png)
-
-### Real News Detection
-![Real Detection](screenshots/real_result.png)
+![Result](screenshots/Screenshot%202026-05-09%20at%204.52.22%20PM.png)
 
 ## 📁 Dataset
 - 51,233 news articles combined from:
