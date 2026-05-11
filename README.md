@@ -1,20 +1,55 @@
-# AI-Based Fake News Detection Using NLP
+# 🔍 AI-Based Fake News Detection Using NLP
 
-A machine learning system that detects fake news using Natural Language Processing and Large Language Models.
+A hybrid fake news detection system combining traditional Machine Learning with Large Language Models (LLaMA 3) to detect fake news from any source, topic or region worldwide.
 
-## Models Implemented
-- Logistic Regression — 92.5% accuracy
-- Random Forest — 96.7% accuracy
-- LinearSVC — 98.0% accuracy
-- BERT — 98.65% accuracy
-- LLaMA 3 LLM — real-time analysis with detailed reasoning
+## 📊 Results
 
-## Dataset
-- 51,233 news articles combined from ISOT and GossipCop/PolitiFact datasets
+| Model | Accuracy |
+|-------|----------|
+| Logistic Regression | 92.5% |
+| Random Forest | 96.7% |
+| LinearSVC | 98.0% |
+| BERT | 98.65% |
+| LLaMA 3 (LLM) | Real-time analysis |
 
-## Tech Stack
-- Python, Scikit-learn, NLTK, Transformers, Streamlit, Groq API
+## 📸 Screenshots
 
-## Run the App
+### App Interface
+![App Interface](screenshots/app.png)
+
+### Fake News Detection
+![Fake Detection](screenshots/fake_result.png)
+
+### Real News Detection
+![Real Detection](screenshots/real_result.png)
+
+## 📁 Dataset
+- 51,233 news articles combined from:
+  - ISOT Dataset (University of Victoria)
+  - GossipCop/PolitiFact Dataset
+
+## 🛠️ Tech Stack
+- Python 3.12
+- Scikit-learn, NLTK, Transformers (BERT)
+- Streamlit (Web App)
+- Groq API (LLaMA 3 LLM)
+
+## 🚀 How to Run
+
+1. Install dependencies:
 pip install -r requirements.txt
+
+2. Add your Groq API key in .env file:
+GROQ_API_KEY=your_key_here
+
+3. Run the app:
 streamlit run app.py
+
+## 🎯 Features
+- Fast ML model for instant detection
+- Advanced LLM analysis with detailed reasoning
+- Confidence scores and red flag detection
+- Works on any news — Indian, international, recent
+
+## 👨‍💻 Author
+Vaibhav Saxena — Vistula University Warsaw (AI Specialization)
